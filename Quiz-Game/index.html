@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+<title>Quiz Game</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body >
+    
+    <h1>Quiz Game..&#128512;</h1>
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Q1:-How do you insert COMMENTS in C++ code??</p>
+<input type = "radio" id = "mc" name = "question1" value = "# This is a Comment"># This is a Comment <br>
+<input type = "radio" id = "mc" name = "question1" value = "// This is a Comment">// This is a Comment<br>
+
+
+
+<p class = "questions">Q2:-How do you create a variable with the floating number 5.8?</p>
+<input type = "radio" id = "mc" name = "question2" value = "int x=5.8;"> int x=5.8;<br>
+<input type = "radio" id = "mc" name = "question2" value = "double x=5.8;"> double x=5.8;<br>
+
+<p class = "questions">Q3:-Which operator is used to add together two values?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "The + operator"> The + operator<br>
+<input type = "radio" id = "mc" name = "question3" value = "The & operator"> The & operator<br>
+
+
+
+
+
+<input id = "button" type = "button" value = "Submit" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
+
+
+
