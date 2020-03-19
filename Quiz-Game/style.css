@@ -74,12 +74,6 @@ h1{
 	
 	
 }
-h1:hover
-{
-	width: 300px;
-	background-color: #00b1d2ff;
-	transition-timing-function: ease-in;
-}
 
 
 
