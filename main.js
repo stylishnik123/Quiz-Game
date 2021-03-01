@@ -21,7 +21,7 @@ function check(){
 	
 	
 	
-	var pictures = ["img/ezgif-3-6baf8a094bab.gif", "img/ezgif-3-2a8ece2080d8.gif", "img/ezgif-3-150ee019a455.gif"];
+	var pictures = ["ezgif-3-6baf8a094bab.gif", "ezgif-3-2a8ece2080d8.gif", "ezgif-3-150ee019a455.gif"];
 	var messages = ["Great job!", "That's just okay.", "You really need to do better."];
 	var score;
 
